@@ -1,40 +1,37 @@
 PODS:
-  - A (0.0.1):
+  - A (0.0.5):
     - B_Category
     - HandyFrame
-  - A_Category (0.0.1)
-  - B_Category (0.0.1):
+  - A_Category (0.0.8):
+    - CTMediator
+  - B_Category (0.0.7):
     - CTMediator
   - CTMediator (46)
   - HandyFrame (1.2.0)
 
 DEPENDENCIES:
-  - A (from `../A`)
-  - A_Category (from `../A_Category`)
-  - B_Category (from `../B_Category`)
+  - A
+  - A_Category
+  - B_Category
   - CTMediator
   - HandyFrame
 
 SPEC REPOS:
+  https://github.com/LKModulizationDemo/ConfigPrivatePod.git:
+    - A
+    - A_Category
+    - B_Category
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - CTMediator
     - HandyFrame
 
-EXTERNAL SOURCES:
-  A:
-    :path: "../A"
-  A_Category:
-    :path: "../A_Category"
-  B_Category:
-    :path: "../B_Category"
-
 SPEC CHECKSUMS:
-  A: 0ca55ebbab5df158d1bbedc8e112b389a914f497
-  A_Category: 304ec96348271442aa7ccca25e0043699cade392
-  B_Category: 980d089b443c020ffd1d73e7a63e294bd0a4baeb
+  A: a9b26fd06a76d4c74adf89cd230f61768e6c2c89
+  A_Category: 1aaa3940b5e5f390c44a83b462161e859562a034
+  B_Category: b8dc5c17971758448da0e7de3c8c5cb623767df8
   CTMediator: f1cf58d509fb3192086c367711f039efd769b907
   HandyFrame: 437df83ba7563c56cd55b9bd0128561995463110
 
-PODFILE CHECKSUM: b1e685210a39091a363e583aecd0bce72d0cdaf9
+PODFILE CHECKSUM: 7f905f2bce287829217eee81f2383163ceaaa415
 
 COCOAPODS: 1.11.3
